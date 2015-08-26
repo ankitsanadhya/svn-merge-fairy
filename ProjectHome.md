@@ -1,0 +1,3 @@
+The Merge Fairy is a Python script that automates the process of merging changes from one Subversion branch to another, based on an XML configuration file that describes branches and their dependencies. For example, you might want bug fixes from the release branch to be automatically merged to the trunk branch.
+
+In the event of a merge conflict or a build failure after merging, the Merge Fairy sends email requesting help from a human to make a manual merge, resuming automated merging once this done.
